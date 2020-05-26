@@ -13,6 +13,11 @@ namespace Nop.Plugin.Widgets.PinPointSlider.Infrastructure
 {
     public class DependencyRegistrar : IDependencyRegistrar
     {
+        public DependencyRegistrar()
+        {
+
+        }
+
         private static string CONTEXT_NAME = "PinPointSlider_object_context";
 
         public void Register(ContainerBuilder builder, ITypeFinder typeFinder, NopConfig config)

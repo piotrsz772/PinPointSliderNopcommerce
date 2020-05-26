@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Pin Point Slider",
+  "SystemName": "Widgets.PinPointSlider",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.20" ],
+  "Author": "Piotr Szary",
+  "DisplayOrder": 1234,
+  "FileName": "Nop.Plugin.Widgets.PinPointSlider.dll",
+  "Description": "Plugin allows set pins on the background image"
+}

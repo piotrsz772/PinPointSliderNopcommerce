@@ -7,6 +7,11 @@ namespace Nop.Plugin.Widgets.PinPointSlider.Areas.Admin.Infrastructure
 {
     public class DependencyRegistrar : IDependencyRegistrar
     {
+        public DependencyRegistrar()
+        {
+
+        }
+
         public void Register(ContainerBuilder builder, ITypeFinder typeFinder, NopConfig config)
         {
             //builder.RegisterType<PinPointSliderModelFactory>().As<IPinPointSliderModelFactory>().InstancePerLifetimeScope();
